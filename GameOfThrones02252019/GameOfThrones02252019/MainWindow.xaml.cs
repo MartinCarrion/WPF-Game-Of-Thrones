@@ -40,7 +40,8 @@ namespace GameOfThrones02252019
                 {
                     var Content = response.Content.ReadAsStringAsync().Result;
                     Quote q = JsonConvert.DeserializeObject<Quote>(Content);
-                    txtQuote.Inlines.Add(new Italic(new Run("Italic")));
+                    txtQuote.Inlines.Add(new Italic(new Run(Content)));
+                    
 
                 }
             }

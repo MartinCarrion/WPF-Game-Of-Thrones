@@ -16,7 +16,7 @@
 
 
         </Grid.Background>
-        <TextBlock x:Name="txtQuote" HorizontalAlignment="Left" Margin="672,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Loaded="TextBlock_Loaded" Height="78" Width="110"/>
+        <TextBlock x:Name="txtQuote" HorizontalAlignment="Left" Margin="414,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Loaded="TextBlock_Loaded" Height="144" Width="368" Foreground="White"/>
 
     </Grid>
 </Window>
