@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="https://media1.popsugar-assets.com/files/thumbor/XEW7PzNHgHL7X3Oi9GcNV3gMdqM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/08/07/810/n/41306527/tmp_hKd0FP_327e200656be2478_Screen_Shot_2017-08-07_at_10.29.54_AM.png" 
+            <ImageBrush ImageSource="https://media1.popsugar-assets.com/files/thumbor/XEW7PzNHgHL7X3Oi9GcNV3gMdqM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/08/07/810/n/41306527/tmp_hKd0FP_327e200656be2478_Screen_Shot_2017-08-07_at_10.29.54_AM.png"                       
                         Stretch="UniformToFill"/>
-
+            
 
 
 

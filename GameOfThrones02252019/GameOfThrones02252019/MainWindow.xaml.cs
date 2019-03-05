@@ -3,6 +3,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -27,6 +28,9 @@ namespace GameOfThrones02252019
         public MainWindow()
         {
             InitializeComponent();
+
+            
+            
         }
         
 
@@ -41,12 +45,16 @@ namespace GameOfThrones02252019
                     var Content = response.Content.ReadAsStringAsync().Result;
                     Quote q = JsonConvert.DeserializeObject<Quote>(Content);
                     txtQuote.Inlines.Add(new Italic(new Run(Content)));
+
                     if (Content.Contains("Tyrion"))
                     {
                         
 
 
+
+
                     }
+                   
                     
 
                 }
